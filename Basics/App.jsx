@@ -6,7 +6,7 @@ import Units from './src/Basics/Units';
 import Flex from './src/Basics/Flex';
 import FlexDirection from './src/Basics/FlexDirection';
 import Scroll from './src/Scroll/Scroll';
-import FlatList from './src/Scroll/FlatList';
+import FlatLists from './src/Scroll/FlatList';
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
         // <Flex/>
         // <FlexDirection/>
         // <Scroll/>
-        <FlatList/>
+        <FlatLists/>
   )
 }
 
