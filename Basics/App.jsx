@@ -4,12 +4,14 @@ import Style from './src/Style';
 import ThemeBased from './src/ThemeBased';
 import Units from './src/Units';
 import Flex from './src/Flex';
+import FlexDirection from './src/FlexDirection';
 
 
 const App = () => {
   return (
         //  <Units/>  
-        <Flex/>
+        // <Flex/>
+        <FlexDirection/>
   )
 }
 
