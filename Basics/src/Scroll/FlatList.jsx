@@ -1,12 +1,16 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet ,Image } from 'react-native'
 import React from 'react'
 
 const FlatList = () => {
   return (
     <View style={Style.container}> 
-    
+
       <Text style={Style.card}>
-        FlatList
+         <Image source={{uri:''}} /> 
+         
+         <Text> Name </Text>
+         <Text> Email </Text>
+
       </Text>
 
     </View>
