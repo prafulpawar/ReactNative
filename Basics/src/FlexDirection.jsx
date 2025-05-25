@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text ,StyleSheet  } from 'react-native'
 import React from 'react'
 
 const FlexDirection = () => {
@@ -15,7 +15,7 @@ const FlexDirection = () => {
   
          <View style={Style.box3}>
   
-        </View>
+         </View>
   
       </View>
   )
@@ -26,20 +26,32 @@ export default FlexDirection
 
 const Style = StyleSheet.create({
      container:{
+         flexDirection:'row',
+         //  justifyContent:'space-between',
+         //  alignItems:'center',
+         //  flexDirection:'row-reverse',
+         //  flexDirection:'column-reverse',
+         justifyContent:'center',
          flex:1,
-        backgroundColor:'black'
+         backgroundColor:'black',
+        //  gap:10,
+         alignItems:'center'
      }
      ,
      box1:{
-         flex:1,
+         width:80,
+         height:80,
+         alignSelf:'flex-start',
          backgroundColor:'red'
      },
      box2:{
-         flex:1,
+         width:80,
+         height:80,
          backgroundColor:'yellow'
      }
      ,box3:{
-         flex:1,
+          width:80,
+          height:80,
          backgroundColor:'green'
      }
 })
