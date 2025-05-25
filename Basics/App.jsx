@@ -5,7 +5,7 @@ import ThemeBased from './src/Basics/ThemeBased';
 import Units from './src/Basics/Units';
 import Flex from './src/Basics/Flex';
 import FlexDirection from './src/Basics/FlexDirection';
-import Scroll from './src/Basics/Scroll';
+import Scroll from './src/Scroll/Scroll';
 
 
 const App = () => {
