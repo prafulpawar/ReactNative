@@ -129,11 +129,7 @@ const dummyUsers = [
 const FlatLists = () => {
     return (
         <View style={Style.container}>
-
-
-
             <FlatList
-
                 data={dummyUsers}
                 renderItem={({ item }) => (
                     <View style={Style.card}>
@@ -146,7 +142,11 @@ const FlatLists = () => {
 
                     </View>
                 )}
-
+                 keyExtractor={(item) => item.id.toString()}
+                 ItemSeparatorComponent={<View style={{height:10}} />} 
+                 numColumns={2}
+                 columnWrapperStyle={{ gap: 10, }}
+                 extraData={{ extra: "data" }}
             />
         </View>
     )
@@ -160,7 +160,8 @@ const Style = StyleSheet.create({
         height: '100%',
         backgroundColor: '#dadada',
         paddingVertical: 10,
-        paddingHorizontal: 5
+        paddingHorizontal: 20,
+
     },
     card: {
         width: 100,
