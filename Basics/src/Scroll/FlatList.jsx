@@ -144,9 +144,16 @@ const FlatLists = () => {
                 )}
                  keyExtractor={(item) => item.id.toString()}
                  ItemSeparatorComponent={<View style={{height:10}} />} 
+                 To Do Verticle
                  numColumns={2}
-                 columnWrapperStyle={{ gap: 10, }}
+                
                  extraData={{ extra: "data" }}
+
+
+                // To Do Horizontal 
+                // horizontal
+                // ItemSeparatorComponent={() => <View style={{ width: 10 }} />} 
+            
             />
         </View>
     )

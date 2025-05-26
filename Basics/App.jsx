@@ -7,6 +7,7 @@ import Flex from './src/Basics/Flex';
 import FlexDirection from './src/Basics/FlexDirection';
 import Scroll from './src/Scroll/Scroll';
 import FlatLists from './src/Scroll/FlatList';
+import Input from './src/UserInput/Input';
 
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
         // <Flex/>
         // <FlexDirection/>
         // <Scroll/>
-        <FlatLists/>
+        // <FlatLists/>
+        <Input/>
   )
 }
 
