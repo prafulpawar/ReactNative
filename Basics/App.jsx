@@ -8,6 +8,7 @@ import FlexDirection from './src/Basics/FlexDirection';
 import Scroll from './src/Scroll/Scroll';
 import FlatLists from './src/Scroll/FlatList';
 import Input from './src/UserInput/Input';
+import StackNavigation from './src/Navigations/Stack/StackNavigation';
 
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
         // <FlexDirection/>
         // <Scroll/>
         // <FlatLists/>
-        <Input/>
+        // <Input/>
+        <StackNavigation/>
   )
 }
 
